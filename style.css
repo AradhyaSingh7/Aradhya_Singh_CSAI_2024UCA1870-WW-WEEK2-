@@ -1,0 +1,120 @@
+body {
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; 
+    flex-direction: column;
+}
+
+.card{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 0px 20px 20px 40px ;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    width:90%;
+    max-width: 475px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search {
+    position: relative;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    position: absolute;
+    top: 8px;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(252, 251, 251);
+    background-color:rgba(8, 0, 0, 0.5);
+    
+    padding:0;
+    margin-top: 30px;
+    line-height: 0.2;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.search input {
+    width: 100%;
+    padding: 15px 15px 10px 0px; 
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    box-sizing: border-box; 
+    color: aliceblue;
+}
+.search input::placeholder{
+    color: rgb(207, 207, 207);
+}
+
+.search button{
+    width: 10px;
+    height: 10px;
+    background: none;
+    border: none;
+    padding-bottom: 25px;
+    cursor:pointer;
+   
+}
+.weather h2{
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.weather h3{
+    margin-top: 3px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.details img{
+    width:40px;
+    height:40px;
+    margin-right: 10px;
+}
+.column{
+    display: flex;
+    align-items: left;
+    align-items: center;
+}
+.text{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.text p {
+    margin: 0; 
+    padding: 0; 
+    line-height: 28px;
+}
+.column-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
